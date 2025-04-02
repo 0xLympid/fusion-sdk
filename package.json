@@ -26,7 +26,8 @@
             "require": "./dist/cjs/api-ext.js",
             "node": "./dist/cjs/api-ext.js",
             "default": "./dist/cjs/api-ext.js"
-        }
+        },
+        "./dist/esm/*": "./dist/esm/*"
     },
     "repository": {
         "type": "git",
